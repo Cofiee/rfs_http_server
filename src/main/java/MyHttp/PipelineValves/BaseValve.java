@@ -2,7 +2,6 @@ package MyHttp.Handling;
 
 import MyHttp.HttpRequest;
 import MyHttp.HttpResponse;
-import MyHttp.IHttpRequestHandler;
 
 public class BaseHandler implements IHttpRequestHandler {
     IHttpRequestHandler nextHandler;

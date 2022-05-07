@@ -1,0 +1,5 @@
+package MyHttp;
+
+class HtmlResourceManager {
+    
+}

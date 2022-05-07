@@ -1,4 +1,7 @@
-package MyHttp;
+package MyHttp.Handling;
+
+import MyHttp.HttpRequest;
+import MyHttp.HttpResponse;
 
 public interface IHttpRequestHandler {
     void setNextHandler(IHttpRequestHandler handler);
